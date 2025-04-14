@@ -1,0 +1,1 @@
+print("bawal ang bastos")

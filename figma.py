@@ -10,13 +10,13 @@ def add_student(students, name):
         print(f"\nStudent {name} already exists.")
 
 def generate_remarks(grade):
-    if grade >= 90:
+    if grade >= 95:
         return "Excellent"
-    elif grade >= 80:
+    elif grade >= 90:
         return "Very Good"
-    elif grade >= 70:
+    elif grade >= 85:
         return "Good"
-    elif grade >= 60:
+    elif grade >= 80:
         return "Satisfactory"
     else:
         return "Needs Improvement"

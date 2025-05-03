@@ -30,31 +30,30 @@ def main():
   students = {}
 
   while True:
-      print("\n--- Student Performance Tracker ---")
-      print("Welcome to the Student Performance Tracker!")
-      print("Please choose an option:")
+      print("\nWelcome to the Student Performance Tracker!")
+      print("\nPlease choose an option:")
       print("1. Add Student")
       print("2. Add Subject Info")
       print("3. View Student Performance")
       print("4. Exit")
-      option = input("Enter your choice (1-4): ")
+      option = input("\nEnter your choice (1-4): ")
 
       if option == '1':
-          name = input("Enter student name: ")
+          name = input("\nEnter student name: ")
           add_student(students, name)
       elif option == '2':
-          name = input("Enter student name: ")
-          subject = input("Enter subject: ")
-          grade = input("Enter grade: ")
-          attendance = input("Enter attendance percentage: ")
+          name = input("\nEnter student name: ")
+          subject = input("\nEnter subject: ")
+          grade = input("\nEnter grade: ")
+          attendance = input("\nEnter number of attendance: ")
           add_subject_info(students, name, subject, grade, attendance)
       elif option == '3':
-          name = input("Enter student name: ")
+          name = input("\nEnter student name: ")
           view_student(students, name)
       elif option == '4':
-          print("Thank you for using the Student Performance Tracker!")
+          print("\nThank you for using the Student Performance Tracker!")
           break
       else:
-          print("Invalid choice. Please try again.")
+          print("\nInvalid choice. Please try again.")
 
 main()

@@ -1,6 +1,6 @@
 SUBJECTS = ["Integral Calculus", "Physics", "Computer Programming", "Art Appreciation",
     "Science, Technology, and Society", "The Contemporary World",
-    "Engineering Drawing", "PE"]
+    "Engineering Drawing", "PathFit"]
 
 def add_student(students, name):
     if name not in students:

@@ -187,7 +187,8 @@ def main():
                 print("\nInvalid input.")
 
         elif option == '6':
-            view_top_performers(students)
+            keyword = input("\nEnter name or part of name to search: ").strip()
+            search_student_by_name(students, keyword)
             
         elif option == '7':
             print("\nThank you for using the Student Performance Tracker!")
